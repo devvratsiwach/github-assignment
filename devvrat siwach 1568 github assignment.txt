@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int subject1,subject2,subject3,subject4,subject5,percentage;
+
+    printf("Enter your Physics score: \n");
+    scanf("\n %d",&subject1);
+
+    printf("Enter your Chemistry score: \n");
+    scanf("\n %d",&subject2);
+
+    printf("Enter your Maths score: \n");
+    scanf("\n %d",&subject3);
+
+    printf("Enter your CS score: \n");
+    scanf("\n %d",&subject4);
+
+    printf("Enter your English score: \n");
+    scanf("\n %d",&subject5);
+
+    percentage=(subject1+subject2+subject3+subject4+subject5)/5;
+    printf("Your percentage is %d \n",percentage);
+    
+    return 0;
+}
